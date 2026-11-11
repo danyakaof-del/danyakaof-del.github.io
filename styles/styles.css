@@ -1,0 +1,105 @@
+.page-header{
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    margin: 0px auto;
+    z-index: 1;
+    height: 147px;
+    background-color: rgba(222, 222, 222, 0.5);
+    margin-bottom: 100.5px;
+}
+.page-header__nav{
+    text-align: center;
+    margin: 61px auto 62px;
+    position: relative;
+}
+.page-header__sign-in{
+    position: relative;
+    left: 307px;
+    border: 1px solid black;
+    padding: 15px 40px;
+}
+.page-main__header--title1{
+    margin: 0px auto 465.5px;
+    text-align: center;
+}
+.page-main__header--title2{
+    margin: 0px auto 100px;
+    text-align: center;
+}
+.offers__btns{
+    margin: 0px auto;
+    text-align: center;
+    max-width: 624px;
+    max-height: 128px;
+    margin-bottom: 200px;
+
+}
+.page-main__about--title{
+    background-color: rgba(31, 30, 30, 1);
+    width: 624px;
+    height: 62px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px auto 150px;
+    color: aliceblue;
+}
+.home__about{
+    box-sizing: border-box;
+    margin: 0px auto 210px;
+    width: 1334px;
+}
+.page-main__events--title{
+    background-color: rgba(31, 30, 30, 1);
+    width: 624px;
+    height: 62px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px auto 150px;
+    color: aliceblue;
+}
+.home__events{
+    box-sizing: border-box;
+    margin: 0px auto 148px;
+    width: 1334px;
+}
+.page-main__blog--title{
+    background-color: rgba(31, 30, 30, 1);
+    width: 624px;
+    height: 62px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px auto 150px;
+    color: aliceblue;
+}
+.home__blog{
+    box-sizing: border-box;
+    margin: 0px auto 78px;
+    width: 1334px;
+}
+.page-main__contacts--title{
+    background-color: rgba(31, 30, 30, 1);
+    width: 624px;
+    height: 62px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px auto 150px;
+    color: aliceblue;
+}
+.home__contacts{
+    box-sizing: border-box;
+    margin: 0px auto 164px;
+    width: 1334px;
+}
+.home__text{
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 202px;
+}
+.page-footer{
+    box-sizing: border-box;
+    margin: 0px auto;
+    width: 1334px;
+}
