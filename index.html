@@ -4,19 +4,49 @@
     <meta charset="UTF-8">
     <title>Lenni</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body class="body">
     
     <header class="page-header">
 
-        <a href="" class="page-header__logo">Logo</a>
+        <div class="page-header__container">
 
-        <div class="page-header__nav">
-            <a href="" class="page-header__nav-link">Мероприятия</a>
-            <a href="" class="page-header__nav-link">Блог</a>
-            <a href="" class="page-header__nav-link">О нас</a>
-            <a href="" class="page-header__nav-link">Контакты</a>
-            <a href="" class="page-header__sign-in">Войти</a>
+            <a href="index.html" class="page-header__logo">
+            <svg 
+                class="page-header__logo-icon" 
+                width="202" 
+                height="147" 
+                viewBox="0 0 202 147" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg">
+
+                <svg viewBox="0 0 202 147" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="202.000000" height="147.000000" fill="none" customFrame="#000000">
+                    <rect id="logo" width="202.000000" height="147.000000" x="0.000000" y="0.000000" />
+                    <rect id="Rectangle" width="147.000000" height="147.000000" x="0.000000" y="0.000000" fill="rgb(31,30,30)" />
+                    <path id="LENNI" d="M70.6993 73L70.6993 50.56C73.5703 50.56 82.4143 51.649 83.0743 64.453L83.0743 73L87.7603 73L87.7603 49.999L83.0743 49.999L83.0743 60.328C81.6553 54.19 77.1673 49.999 70.6993 49.999L66.0133 49.999L66.0133 73L70.6993 73ZM97.3893 73L97.3893 50.56C100.26 50.56 109.104 51.649 109.764 64.453L109.764 73L114.45 73L114.45 49.999L109.764 49.999L109.764 60.328C108.345 54.19 103.857 49.999 97.3893 49.999L92.7033 49.999L92.7033 73L97.3893 73ZM26.6335 72.439L39.9655 72.439L39.9655 73L21.9145 73L21.9145 49.999L26.6005 49.999L26.6005 50.032L26.6335 50.032L26.6335 72.439ZM43.9316 73L62.0486 73L62.0486 72.439L48.6176 72.439L48.6176 61.285L59.1116 61.285L59.1116 60.691L48.6176 60.691L48.6176 50.56L62.0486 50.56L62.0486 49.999L43.9316 49.999L43.9316 73ZM124.079 73L119.393 73L119.393 49.999L124.079 49.999L124.079 73Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+                    <rect id="Rectangle" width="121.000000" height="42.000000" x="81.000000" y="92.000000" fill="rgb(188,51,36)" />
+                    <path id="ART" d="M132.644 124L132.644 103.09L136.904 103.09L136.904 110.05C137.564 106.15 138.914 102.64 143.594 102.64C148.034 102.64 151.844 104.29 151.844 109.51C151.844 113.68 149.564 115.54 146.564 116.32L151.724 123.97L146.864 123.97L141.974 116.77L136.904 116.77L136.904 124L132.644 124ZM108.922 124L109.462 124L112.402 115.45L120.952 115.45L124.282 124L128.752 124L120.652 103.09L116.122 103.09L108.922 124ZM162.084 103.6L162.114 124L166.374 124L166.374 103.6L174.984 103.6L174.984 103.09L153.474 103.09L153.474 103.6L162.084 103.6ZM142.844 103.18C140.984 103.33 138.884 104.53 138.074 107.47C136.784 112.12 136.904 116.26 136.904 116.26L141.254 116.26C144.134 116.26 147.494 115.84 147.494 109.51C147.494 105.61 147.314 102.76 142.844 103.18ZM116.422 103.75L120.772 114.94L112.582 114.94L116.422 103.75Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+                </svg>
+
+            </svg>
+            </a>
+
+            <div class="page-header__nav">
+                <a href="" class="page-header__nav-link">Мероприятия</a>
+                <a href="" class="page-header__nav-link">Блог</a>
+                <a href="" class="page-header__nav-link">О нас</a>
+                <a href="" class="page-header__nav-link">Контакты</a>
+            </div>
+
+            <div class="page-header__right-block"> 
+                <a class="btn page-header__user-btn" href="">Войти</a>
+            </div>
+
+
         </div>
 
     </header>
@@ -38,12 +68,12 @@
 
             </header>
 
-            <section class="page-main__about home__about">  
+            <section class="about home__about">  
                 
-                <h2 class="page-main__about--title">О нас</h2>
+                <h1 class="listing__title about--title">О нас</h1>
                 
                 <article>
-                    <h3>Проект «Millennials»</h3>
+                    <h2>Проект «Millennials»</h2>
                     <p> Вдохновлен молодыми идейными людьми, увлеченными творчеством, эмоциями и желанием <br>
                     сделать мир лучше, проявить себя. У них есть талант и стремление, у нас возможность помочь <br>
                     им воплотить их мечту в реальность.</p>
@@ -54,7 +84,7 @@
                 <img src="" alt="">
 
                 <article>
-                    <h3>Мы предоставляем площади для <br> вашего мероприятия</h3>
+                    <h2>Мы предоставляем площади для <br> вашего мероприятия</h2>
                     <p> И оказываем помощь с организацией, если вам это нужно. <br>
                     Наша цель: вовлечь в культурную жизнь города как можно больше людей, помочь молодым <br>
                     ребятам сделать первые шаги к своей мечте и рассказать всем о том, что их волнует.</p>
@@ -69,52 +99,61 @@
                 <button class="btn" type="button">Смотреть</button>
 
             </section>
+            <div class="events">
+                <section class="listing events__listing home__events">  
 
-            <section class="page-main__events home__events">  
+                    <h1 class="listing__title events--title">Мероприятия</h1>
+                    
+                    <div class="listing__events-list">
 
-                <h2 class="page-main__events--title">Мероприятия</h2>
+                        <article class="listing__event-card event-card">
+                            <a href="#" class="event-card__link">
+                                <picture class="event-card__picture">
+                                    <img src="images/events/nirvana.jpg" alt="Nirvana" class="event-card__img">
+                                </picture>
+                                <h4 class="event-card__title">Собираемся и слушаем альбом Nirvana</h4>
+                                <p class="event-card__description">Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый, содержащий студийный материал.</p>
+                                <time datetime="2022-12-07T18:00" class="event-card__time">07.12.2022 | начало 18.00</time>
+                            </a>
+                        </article>
 
-                <article>
-                    <img src="" alt="">
-                    <h4>Собираемся и слушаем альбом <br> Nirvana. Nirvana</h4>
-                    <p> третий альбом группы, выпущенный после <br>
-                    смерти Курта Кобейна и первый, содержащий <br>
-                    студийный материал.</p>
-                    <p>07.12.2026 | начало 18.00</p>
-                </article>
+                        <article class="listing__event-card event-card">
+                            <a href="#" class="event-card__link">
+                                <picture class="event-card__picture">
+                                    <img src="images/events/HowStuffWorks.jpg" alt="HowStuffWorks" class="event-card__img">
+                                </picture>
+                                <h4 class="event-card__title">Есть тема, нужно обсудить с HowStuffWorks</h4>
+                                <p class="event-card__description">Один из самых популярных подкастов в мире. В нём авторы объясняют, как устроены разные вещи.</p>
+                                <time datetime="2026-12-14T18:30" class="event-card__time">14.12.2026 | начало 18.30</time>
+                            </a>
+                        </article>
 
-                <article>
-                    <img src="" alt="">
-                    <h4>Есть тема, нужно обсудить с <br> HowStuffWorks</h4>
-                    <p>Один из самых популярных подкастов в мире. В <br>
-                    нём авторы объясняют, как устроены разные <br>
-                    вещи.</p>
-                    <p>14.12.2026 | начало 18.30</p>
-                </article>
+                        <article class="listing__event-card event-card">
+                            <a href="#" class="event-card__link">
+                                <picture class="event-card__picture">
+                                    <img src="images/events/sade.jpg" alt="The Best of Sade" class="event-card__img">
+                                </picture>
+                                <h4 class="event-card__title">Вечер | The Best of Sade</h4>
+                                <p class="event-card__description">Музыка группы имеет эклектичный характер, сочетая в себе элементы музыки соул, джаза, ритм-блюза и фанка.</p>
+                                <time datetime="2026-12-16T20:00" class="event-card__time">16.12.2026 | начало 20.00</time>
+                            </a>
+                        </article>
 
-                <article>
-                    <img src="" alt="">
-                    <h4><span style="color: brown;">Beчep | The Best of Sade</span></h4>
-                    <p>Музыка группы имеет эклектичный характер, <br>
-                    сочетая в себе элементы музыки соул, джаза, <br>
-                    ритм-блюза и фанка.</p>
-                    <p>16.12.2026 | начало 20.00</p>
-                </article>
+                    </div>
+                    <div class="events--slider">
 
-                <div class="page-main__events--slider">
+                    </div>
 
-                </div>
+                    <button class="btn" type="button">Смотреть все</button>
 
-                <button class="btn" type="button">Смотреть все</button>
-
-            </section>
-            
-            <section class="page-main__blog home__blog">  
-                <h2 class="page-main__blog--title">Блог</h2>
+                </section>
+            </div>
+            <section class="blog home__blog">  
+                <h1 class="listing__title blog--title">Блог</h1>
                 <article>
                     <img src="" alt="">
                     <p>26.11.2026</p>
-                    <h4>Фотосессия в стенах Театра драмы</h4>
+                    <h3>Фотосессия в стенах Театра драмы</h3>
                     <p>Организовывая фотосессию для локального бренда <br>
                     одежды мы смогли воплотить все пожелания заказчика и у <br>
                     нас получилась отличная работа. Смотрите как это было</p>
@@ -123,7 +162,7 @@
                 <article>
                     <img src="" alt="">
                     <p>05.11.2026</p>
-                    <h4>Выставка VR в Томске</h4>
+                    <h3>Выставка VR в Томске</h3>
                     <p>Клуб виртуальной реальности - это другие миры. яркие <br>
                     эмоции. новый опыт. ... Мы предоставляем нашим <br>
                     клиентам лучший игровой VR-опыт в Томске.</p>
@@ -132,7 +171,7 @@
                 <article>
                     <img src="" alt="">
                     <p>01.11.2026</p>
-                    <h4>Rocking radio в заброшенном ангаре</h4>
+                    <h3>Rocking radio в заброшенном ангаре</h3>
                     <p>15 электрогенераторов, километры проводов и пару тонн <br>
                     света. Все это для того, чтобы организовать лучшую <br>
                     вечеринку года для ребят из Новосибирска.</p>
@@ -142,9 +181,9 @@
 
             </section>
                 
-            <section class="page-main__contacts home__contacts">  
+            <section class="contacts home__contacts">  
 
-                <h2 class="page-main__contacts--title">Контакты</h2>
+                <h1 class="listing__title contacts--title">Контакты</h1>
 
                 <div>
 
